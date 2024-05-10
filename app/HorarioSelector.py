@@ -1,5 +1,4 @@
 from datosPlanEstudio import planDeEstudios
-
 class subjectSelector:
     def __init__(self, maxMateriasHabilitadas = 10) -> None:
         self.data = []
