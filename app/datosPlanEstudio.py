@@ -1,7 +1,7 @@
-from element.Day import Day
-from element.Time import Time
-from element.Group import Group
-from element.Shift import Shift
+from .element.Day import Day
+from .element.Time import Time
+from .element.Group import Group
+from .element.Shift import Shift
 
 planDeEstudios = [
     [

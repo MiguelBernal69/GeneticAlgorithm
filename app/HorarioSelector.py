@@ -1,4 +1,5 @@
-from datosPlanEstudio import planDeEstudios
+from .datosPlanEstudio import planDeEstudios
+import pprint
 class subjectSelector:
     def __init__(self, maxMateriasHabilitadas = 10) -> None:
         self.data = []
@@ -44,4 +45,5 @@ class subjectSelector:
                 max += 1
 
     def getData(self):
+        pprint.pprint(self.data)
         return self.data
